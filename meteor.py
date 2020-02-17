@@ -17,5 +17,5 @@ async def on_ready():
         time.sleep(30) #초단위로 쿨타임을 센다.
 
 
-os.environ["TOKEN"]
+token=os.environ["TOKEN"]
 client.run(token)

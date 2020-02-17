@@ -4,7 +4,7 @@ import os
 
 
 client = discord.Client()
-channel = "677853265043521546, 659332802638118933"
+channel = "677853265043521546", "659332802638118933"
 @client.event
 async def on_ready():
     print(client.user.id)
